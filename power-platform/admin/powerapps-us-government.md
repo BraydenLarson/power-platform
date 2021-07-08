@@ -192,6 +192,14 @@ Also, refer to the [Required IP Ranges](https://www.microsoft.com/download/confi
 - GCC and GCC High: (Focus on AzureCloud.usgovtexas and AzureCloud.usgovvirginia)
 - DoD:  Focus on USDoD East and USDoD Central 
 
+
+>[!NOTE]
+> These IPs and URLs are what is required on the Power App side for functionality to work in Goverment Cloud. There may be additional IPs and URLs that you may need from the Office side and as such you should also confirm them
+> - GCC:  https://docs.microsoft.com/en-us/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide
+> - GCCH: https://docs.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints?view=o365-worldwide
+> - DoD:  https://docs.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-u-s-government-dod-endpoints?view=o365-worldwide
+
+
 ## Regional Discovery Service is deprecated
 
 Effective March 2, 2020, the *regional* [Discovery Service](/powerapps/developer/common-data-service/org-service/discovery-service) will be deprecated. More information: [Regional Discovery Service is deprecated](../important-changes-coming.md#regional-discovery-service-is-deprecated) 
